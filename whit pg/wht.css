@@ -1,0 +1,161 @@
+.t-page {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F0F0F0;
+    background-color: #F0F0F0;
+}
+.t-head {
+    background-image: url(imgs/bg-desktop-light.jpg);
+    width: 88%;
+    margin-left: 6%;
+}
+.td-hd {
+    margin: 80px 0px 40px 42%;
+    word-spacing: 10px;
+    color: #fff;
+}
+.img-moon {
+    float: right;
+    margin: -73px 150px 0px 0px;
+}
+.box1 {
+    border: 1px solid #25273C;
+    background-color: #25273C;
+    color: #fff;
+    width: 40%;
+    padding: 15px 20px;
+    margin: 10px 0px 60px 42%;
+    border-radius: 4px;
+}
+#input_field {
+    background-color: transparent;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+#input_check {
+    width: 15px;
+    border-radius: 100px;
+    background-color: #8E94F4;   
+}
+/* #input_radio {
+    background-color: transparent;
+    color: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+} */
+#btn-bx {
+    border: 1px solid rgb(206, 203, 203);
+    width: 88%;
+    height: 600px;
+    margin-left: 6%;
+    background-color: #fff;
+}
+
+
+#box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+.box-grd {
+    border: 1px solid #34364B;
+    background-color: #25273C;
+    color: #fff;
+    width: 40%;
+    padding: 15px 20px;
+    margin-left: 42%;
+    font-size: 18px;
+}
+
+#icon_cross {
+    
+    float: right;
+    margin-right: 5px;
+}
+.btn-list {
+    list-style: none;
+    display: flex;
+    word-spacing: 6px;
+    padding: 3px;
+    color: #5F607D;
+}
+#items_count:hover {
+    color: #fff;
+}
+#all_btn:hover {
+    color: #fff;
+}
+#active_btn:hover {
+    color: #fff;
+}
+#done_btn:hover {
+    color: #fff;
+}
+#done_btn:hover {
+    color: #fff;
+}
+li {
+    padding-left: 10px;
+}
+footer {
+    float: right;
+    margin-right: 360px;
+    color: #34364B;
+    margin-top: 40px;
+}
+
+@media (max-width: 375px) {
+    .t-page {
+        width: 96%;
+        height: 94%;
+    }
+
+    .t-head {
+        background-image: url(imgs/bg-mobile-light.jpg);
+        width: 96%;
+        margin-left: 4%;
+    }
+    .td-hd {
+        margin: 80px 0px 40px 4%;
+        word-spacing: 5px;
+    }
+    .img-sun {
+        font-size: 16px;
+        margin: -73px 20px 0px 0px;
+    }
+    .box1 {
+        width: 80%;
+        padding: 10px 15px;
+        margin: 10px 0px 50px 4%;
+        border-radius: 4px;
+    }
+    #btn-bx {
+        width: 95.5%;
+        height: 400px;
+        margin-left: 4%;
+    }   
+    .box-grd {
+        width: 80%;
+        padding: 10px 15px;
+        margin-left: 4%;
+        font-size: 13px;
+        border-radius: 3px;
+    }
+    #all_btn {
+        margin-left: 20px;
+    }
+    #clear_btn {
+        color: transparent;
+        font-size:0.5px;
+    }
+    footer {
+        float: right;
+        margin-right: 80px;
+        margin-top: 40px;
+    }
+    
+    
+}
